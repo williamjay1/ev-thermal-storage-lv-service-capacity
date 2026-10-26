@@ -1,3 +1,5 @@
+﻿[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23671880.svg)](https://doi.org/10.5281/zenodo.23671880)
+
 # Data and code: thermal storage and managed electric vehicle charging in low voltage networks
 
 This archive supports the study *Thermal Storage And Managed Electric Vehicle Charging In Low
