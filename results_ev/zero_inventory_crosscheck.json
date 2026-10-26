@@ -1,0 +1,30 @@
+[
+  {
+    "year": 2024,
+    "mode": "immediate",
+    "analytic_count": 5.489698786436072,
+    "zero_inventory_lp_count": 5.489698786436067,
+    "absolute_difference": 4.440892098500626e-15
+  },
+  {
+    "year": 2024,
+    "mode": "managed",
+    "analytic_count": 36.715979380607024,
+    "zero_inventory_lp_count": 36.71597938427863,
+    "absolute_difference": 3.6716087947752385e-09
+  },
+  {
+    "year": 2025,
+    "mode": "immediate",
+    "analytic_count": 3.503987515932538,
+    "zero_inventory_lp_count": 3.503987515932542,
+    "absolute_difference": 3.9968028886505635e-15
+  },
+  {
+    "year": 2025,
+    "mode": "managed",
+    "analytic_count": 30.796766743080425,
+    "zero_inventory_lp_count": 30.796766746160102,
+    "absolute_difference": 3.079676957895572e-09
+  }
+]

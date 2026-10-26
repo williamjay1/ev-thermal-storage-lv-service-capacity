@@ -1,0 +1,332 @@
+{
+  "reference_count": 44,
+  "nominal_cases": 24,
+  "storage_cases": 3,
+  "ac_records": 180,
+  "unique_ac_traces": 94,
+  "unique_ac_intervals": 2052960,
+  "ac_violations": 0,
+  "cost_settings": 312,
+  "decision_summary": [
+    {
+      "network": "rural1",
+      "growth": 0,
+      "direct_npc": 14740.13226256356,
+      "joint_npc": 14740.13226256356,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AU",
+      "joint_final_asset": "AU"
+    },
+    {
+      "network": "rural1",
+      "growth": 0.01,
+      "direct_npc": 22391.51850166517,
+      "joint_npc": 22108.986631239568,
+      "saving": 282.5318704256024,
+      "saving_percent": 1.2617807515135322,
+      "storage_modules": 3,
+      "direct_final_asset": "AP66",
+      "joint_final_asset": "AP33"
+    },
+    {
+      "network": "rural1",
+      "growth": 0.02,
+      "direct_npc": 30836.039012996996,
+      "joint_npc": 30836.039012996996,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "rural1",
+      "growth": 0.03,
+      "direct_npc": 37651.61249208811,
+      "joint_npc": 37651.61249208811,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "BP100",
+      "joint_final_asset": "BP100"
+    },
+    {
+      "network": "rural2",
+      "growth": 0,
+      "direct_npc": 6545.484520381367,
+      "joint_npc": 6545.484520381367,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AU",
+      "joint_final_asset": "AU"
+    },
+    {
+      "network": "rural2",
+      "growth": 0.01,
+      "direct_npc": 17708.57871544319,
+      "joint_npc": 17708.57871544319,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP33",
+      "joint_final_asset": "AP33"
+    },
+    {
+      "network": "rural2",
+      "growth": 0.02,
+      "direct_npc": 28798.85494165297,
+      "joint_npc": 27840.00659935436,
+      "saving": 958.8483422986101,
+      "saving_percent": 3.3294668980459643,
+      "storage_modules": 2,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP66"
+    },
+    {
+      "network": "rural2",
+      "growth": 0.03,
+      "direct_npc": 39561.85060245366,
+      "joint_npc": 39561.85060245366,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "rural3",
+      "growth": 0,
+      "direct_npc": 8756.310348877258,
+      "joint_npc": 8756.310348877258,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AU",
+      "joint_final_asset": "AU"
+    },
+    {
+      "network": "rural3",
+      "growth": 0.01,
+      "direct_npc": 28379.754504120927,
+      "joint_npc": 28379.754504120927,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP33",
+      "joint_final_asset": "AP33"
+    },
+    {
+      "network": "rural3",
+      "growth": 0.02,
+      "direct_npc": 32698.61404533968,
+      "joint_npc": 32511.660560034023,
+      "saving": 186.95348530565752,
+      "saving_percent": 0.5717474295590298,
+      "storage_modules": 3,
+      "direct_final_asset": "AP66",
+      "joint_final_asset": "AP33"
+    },
+    {
+      "network": "rural3",
+      "growth": 0.03,
+      "direct_npc": 37378.94609909945,
+      "joint_npc": 37378.94609909945,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP66",
+      "joint_final_asset": "AP66"
+    },
+    {
+      "network": "semiurb4",
+      "growth": 0,
+      "direct_npc": 24324.512405090794,
+      "joint_npc": 24324.512405090794,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP66",
+      "joint_final_asset": "AP66"
+    },
+    {
+      "network": "semiurb4",
+      "growth": 0.01,
+      "direct_npc": 31121.40027932715,
+      "joint_npc": 31121.40027932715,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "semiurb4",
+      "growth": 0.02,
+      "direct_npc": 32432.173059786684,
+      "joint_npc": 32432.173059786684,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "semiurb4",
+      "growth": 0.03,
+      "direct_npc": 34093.87087837317,
+      "joint_npc": 34093.87087837317,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "semiurb5",
+      "growth": 0,
+      "direct_npc": 19758.84641531643,
+      "joint_npc": 19758.84641531643,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP33",
+      "joint_final_asset": "AP33"
+    },
+    {
+      "network": "semiurb5",
+      "growth": 0.01,
+      "direct_npc": 26202.17467797895,
+      "joint_npc": 26202.17467797895,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP66",
+      "joint_final_asset": "AP66"
+    },
+    {
+      "network": "semiurb5",
+      "growth": 0.02,
+      "direct_npc": 35091.46726208567,
+      "joint_npc": 35091.46726208567,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "semiurb5",
+      "growth": 0.03,
+      "direct_npc": 40506.69146390177,
+      "joint_npc": 40506.69146390177,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "urban6",
+      "growth": 0,
+      "direct_npc": 20735.08047992342,
+      "joint_npc": 20735.08047992342,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP66",
+      "joint_final_asset": "AP66"
+    },
+    {
+      "network": "urban6",
+      "growth": 0.01,
+      "direct_npc": 29527.060864440464,
+      "joint_npc": 29527.060864440464,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "urban6",
+      "growth": 0.02,
+      "direct_npc": 31278.731242398226,
+      "joint_npc": 31278.731242398226,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    },
+    {
+      "network": "urban6",
+      "growth": 0.03,
+      "direct_npc": 33494.6354303319,
+      "joint_npc": 33494.6354303319,
+      "saving": 0.0,
+      "saving_percent": 0.0,
+      "storage_modules": 0,
+      "direct_final_asset": "AP100",
+      "joint_final_asset": "AP100"
+    }
+  ],
+  "source_files": {
+    "selected_plans_frozen.json": "f98314a46be59933f3801ce7cd4fe7c148a31d62868857c74780eb590fa01082",
+    "investment_ac.csv": "f871a05a778db8c46dcde0a91de5a2fb424102e7f9c54fc0b6699b29a4bc8f08",
+    "cost_sensitivity.csv": "ded07afb38c2fba3a3cb426305effd0d401eb230516f84d64c41f7a00159f6a0",
+    "chronological_validation.csv": "91d3c6f4330a2158678fb4879e6a780a78e2ce95a569feb9cce27a936c23253b",
+    "horizon_sensitivity.csv": "ba41358886119a0eba5a2278f0c1a74d7cadd018e57b82895b23989660c50f3c",
+    "investment_controller_benchmark_reserve.csv": "18faa288a9ef63563b4ac05e468b9e7842f09f726ab68065592ea13c9b3dbd37"
+  },
+  "screen_scenario_ranges_percent": {
+    "2h": {
+      "heat_pump_peak_reduction": [
+        15.6,
+        33.3
+      ],
+      "linear_requirement_reduction": [
+        -3.7,
+        18.3
+      ]
+    },
+    "4h": {
+      "heat_pump_peak_reduction": [
+        18.1,
+        40.8
+      ],
+      "linear_requirement_reduction": [
+        -5.6,
+        21.6
+      ]
+    },
+    "8h": {
+      "heat_pump_peak_reduction": [
+        22.4,
+        45.1
+      ],
+      "linear_requirement_reduction": [
+        -3.4,
+        25.5
+      ]
+    }
+  },
+  "external_topology_challenge": {
+    "configurations": 16,
+    "validated": 10,
+    "uncertified_nonconvergent": 6,
+    "validated_all_violate_local_limit": true,
+    "source_conversion_max_error_kV": [
+      0.000149,
+      0.001349
+    ]
+  },
+  "active_storage_trace_diagnostics": {
+    "records": 27,
+    "min_soc_mwh": 3.124953e-11,
+    "max_excess_input_mw": 0.0,
+    "max_capacity_violations": 0
+  }
+}

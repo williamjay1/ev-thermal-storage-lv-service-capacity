@@ -1,0 +1,26 @@
+{
+  "model_version": "ev_v2_spare_eta",
+  "protocol": "Synthetic daily grid-side EV contract, independently periodic 8760-hour perfect-information capacity bounds. Min of 2024/2025, not continuous two-year SOC or a 2026 holdout. No EV economic optimisation.",
+  "modules": [
+    0,
+    2,
+    5
+  ],
+  "assets": [
+    "OU",
+    "AU",
+    "OP100",
+    "AP100"
+  ],
+  "keys": [
+    "rural1",
+    "rural2",
+    "rural3",
+    "semiurb4",
+    "semiurb5",
+    "urban6"
+  ],
+  "spare_maintenance": "unitE*(1-rho)/(eta*alpha*COP)",
+  "units": "kW, kWh in solver; equivalent continuous EV count in hosting results",
+  "raw_inputs_modified": false
+}

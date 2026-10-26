@@ -1,0 +1,18 @@
+{
+  "model_version": "ev_v2_spare_eta",
+  "main_cases": 288,
+  "sensitivity_cases": 192,
+  "witnesses_independently_checked": 480,
+  "all_passed": true,
+  "maximum_residuals": {
+    "heat_kw": 5.684341886080802e-14,
+    "inventory_kwh": 2.1316282072803006e-14,
+    "departure_kwh": 1.3642420526593924e-12,
+    "network_kw": 5.684341886080802e-14,
+    "ev_rate_kw": 0.0,
+    "simultaneous_kw": 0.0,
+    "soc_violation_kwh": 0.0
+  },
+  "zero_inventory_crosscheck_max_evs": 3.6716087947752385e-09,
+  "notes": "Independent NumPy equations applied to all saved witnesses; annual periodicity, daily service and common connection, not project cost benefit or operational controller validation."
+}

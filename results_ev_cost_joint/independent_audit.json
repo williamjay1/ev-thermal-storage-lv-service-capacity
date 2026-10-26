@@ -1,0 +1,73 @@
+{
+  "model_version": "joint_loss_pwl_v1",
+  "all_passed": true,
+  "annual_cases": 144,
+  "independently_checked_witnesses": 138,
+  "capacity_infeasible_cases_retained": 6,
+  "maximum_residuals": {
+    "heat_kw": 8.526512829121202e-14,
+    "inventory_kwh": 2.842170943040401e-14,
+    "departure_kwh": 3.410605131648481e-13,
+    "network_kw": 2.842170943040401e-14,
+    "ev_rate_kw": 0.0,
+    "cycling_kw": 0.0,
+    "loss_evaluation_mw": 0.0,
+    "objective_kwh": 1.2281816452741623e-08,
+    "energy_lower_mwh": 1.2392309400865997e-11,
+    "energy_upper_mwh": 1.7763568394002505e-15
+  },
+  "max_manual_cashflow_npc_difference_eur": 4.3655745685100555e-11,
+  "selected_wire_order": [
+    {
+      "network": "rural1",
+      "selected_wire_asset": "AU",
+      "selected_wire_asset_certified": true
+    },
+    {
+      "network": "rural2",
+      "selected_wire_asset": "AU",
+      "selected_wire_asset_certified": true
+    },
+    {
+      "network": "rural3",
+      "selected_wire_asset": "AU",
+      "selected_wire_asset_certified": true
+    },
+    {
+      "network": "semiurb4",
+      "selected_wire_asset": "AU",
+      "selected_wire_asset_certified": true
+    },
+    {
+      "network": "semiurb5",
+      "selected_wire_asset": "AU",
+      "selected_wire_asset_certified": true
+    },
+    {
+      "network": "urban6",
+      "selected_wire_asset": "AU",
+      "selected_wire_asset_certified": true
+    }
+  ],
+  "nominal_wire_vs_all_tes_certificates": 6,
+  "adverse_wire_vs_all_tes_certificates": 6,
+  "notes": "Certificates are within the evaluated finite menu, annual periodic operation, convex cached-loss model and stated fit-error assumption; not observed utility investment or load-growth deferral.",
+  "selected_wire_ac_validation": {
+    "records": 20,
+    "intervals": 700800,
+    "violations": 0,
+    "minimum_voltage_pu": 0.9517552416739722,
+    "maximum_voltage_pu": 1.0331032234142392,
+    "maximum_line_percent": 99.9814729400266,
+    "maximum_transformer_percent": 68.24884102008308,
+    "newton_voltage_error": 3.052247343759973e-11,
+    "newton_line_percentage_point_error": 3.1318407422986645e-08,
+    "newton_transformer_percentage_point_error": 2.6701002298068488e-08
+  },
+  "selected_wire_loss_validation": {
+    "records": 20,
+    "maximum_hourly_error_mw": 6.67663248860766e-07,
+    "maximum_annual_error_mwh": 0.0025480269158268,
+    "all_within_assumed_allowance": true
+  }
+}

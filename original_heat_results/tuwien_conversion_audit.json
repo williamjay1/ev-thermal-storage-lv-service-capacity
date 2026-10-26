@@ -1,0 +1,66 @@
+{
+  "status": "source_conversion_equivalence_audit",
+  "scientific_status": "conversion_test_only_no_heat_storage_or_eu_inference",
+  "voltage_tolerance_kv": 0.005,
+  "records": [
+    {
+      "file": "TUWien_LV_TestGrid_175Urban.xlsx",
+      "status": "pass",
+      "solver_converged": true,
+      "bus_count": 241,
+      "line_count": 239,
+      "transformer_count": 1,
+      "load_count": 168,
+      "source_voltage_rows_compared": 241,
+      "max_abs_voltage_error_kv": 0.0013490885975248057,
+      "mean_abs_voltage_error_kv": 0.0006811913855610622,
+      "equivalence_tolerance_kv": 0.005,
+      "equivalence_status": "pass"
+    },
+    {
+      "file": "TUWien_LV_TestGrid_20Cable.xlsx",
+      "status": "pass",
+      "solver_converged": true,
+      "bus_count": 32,
+      "line_count": 30,
+      "transformer_count": 1,
+      "load_count": 20,
+      "source_voltage_rows_compared": 32,
+      "max_abs_voltage_error_kv": 0.00014864565904060267,
+      "mean_abs_voltage_error_kv": 0.00010349064177942423,
+      "equivalence_tolerance_kv": 0.005,
+      "equivalence_status": "pass"
+    },
+    {
+      "file": "TUWien_LV_TestGrid_20OverheadLine.xlsx",
+      "status": "pass",
+      "solver_converged": true,
+      "bus_count": 32,
+      "line_count": 30,
+      "transformer_count": 1,
+      "load_count": 20,
+      "source_voltage_rows_compared": 32,
+      "max_abs_voltage_error_kv": 0.0007380832859348874,
+      "mean_abs_voltage_error_kv": 0.00048880330106282,
+      "equivalence_tolerance_kv": 0.005,
+      "equivalence_status": "pass"
+    },
+    {
+      "file": "TUWien_LV_TestGrid_61Rural.xlsx",
+      "status": "pass",
+      "solver_converged": true,
+      "bus_count": 85,
+      "line_count": 83,
+      "transformer_count": 1,
+      "load_count": 59,
+      "source_voltage_rows_compared": 85,
+      "max_abs_voltage_error_kv": 0.0009350642785068142,
+      "mean_abs_voltage_error_kv": 0.0005608708044925337,
+      "equivalence_tolerance_kv": 0.005,
+      "equivalence_status": "pass"
+    }
+  ],
+  "passed_count": 4,
+  "failed_count": 0,
+  "interpretation": "A failed balanced-equivalent comparison requires phase-aware adapter refinement; it does not support any substantive Project 09 finding."
+}

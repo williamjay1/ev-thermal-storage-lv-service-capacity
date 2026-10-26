@@ -1,0 +1,9 @@
+{
+  "cohort": 24,
+  "development_heat_mwh": [
+    360.03977432952547,
+    344.51162620809
+  ],
+  "winter_heat_mwh": 154.82665595866212,
+  "winter_electricity_mwh": 41.91188903319569
+}

@@ -1,0 +1,527 @@
+{
+  "model_version": "ev_v2_spare_eta",
+  "main_cases": 288,
+  "expected_main_cases": 288,
+  "main_statuses": {
+    "optimal": 288
+  },
+  "two_year_groups": 144,
+  "two_year_feasible": 144,
+  "ou_comparison": [
+    {
+      "network": "rural1",
+      "immediate_0": 3.503987515932538,
+      "immediate_0_whole": 3,
+      "managed_0": 30.796766743080425,
+      "managed_0_whole": 30,
+      "immediate_2": 4.6049064449937225,
+      "immediate_2_whole": 4,
+      "managed_2": 31.56881955789492,
+      "managed_2_whole": 31,
+      "immediate_5": 6.750428393226713,
+      "immediate_5_whole": 6,
+      "managed_5": 33.968630981118444,
+      "managed_5_whole": 33,
+      "tes_increment_to_managed": 3.171864238038019,
+      "tes_increment_percent": 10.29934169550668
+    },
+    {
+      "network": "rural2",
+      "immediate_0": 3.78679607350652,
+      "immediate_0_whole": 3,
+      "managed_0": 19.82723211835822,
+      "managed_0_whole": 19,
+      "immediate_2": 4.756817375674994,
+      "immediate_2_whole": 4,
+      "managed_2": 20.599284932075765,
+      "managed_2_whole": 20,
+      "immediate_5": 7.146250291100582,
+      "immediate_5_whole": 7,
+      "managed_5": 22.999096355299297,
+      "managed_5_whole": 22,
+      "tes_increment_to_managed": 3.171864236941076,
+      "tes_increment_percent": 15.997514015101565
+    },
+    {
+      "network": "rural3",
+      "immediate_0": 4.452301566982546,
+      "immediate_0_whole": 4,
+      "managed_0": 25.31705348492138,
+      "managed_0_whole": 25,
+      "immediate_2": 5.611259621192302,
+      "immediate_2_whole": 5,
+      "managed_2": 26.089106299187915,
+      "managed_2_whole": 26,
+      "immediate_5": 8.000692536617892,
+      "immediate_5_whole": 8,
+      "managed_5": 28.48891772241144,
+      "managed_5_whole": 28,
+      "tes_increment_to_managed": 3.171864237490059,
+      "tes_increment_percent": 12.528567905341736
+    },
+    {
+      "network": "semiurb4",
+      "immediate_0": 8.101373249481904,
+      "immediate_0_whole": 8,
+      "managed_0": 44.86591526738215,
+      "managed_0_whole": 44,
+      "immediate_2": 9.475205659876233,
+      "immediate_2_whole": 9,
+      "managed_2": 45.63796808360359,
+      "managed_2_whole": 45,
+      "immediate_5": 11.864638575301822,
+      "immediate_5_whole": 11,
+      "managed_5": 48.0377795068271,
+      "managed_5_whole": 48,
+      "tes_increment_to_managed": 3.1718642394449503,
+      "tes_increment_percent": 7.069652364254608
+    },
+    {
+      "network": "semiurb5",
+      "immediate_0": 9.075125858230386,
+      "immediate_0_whole": 9,
+      "managed_0": 44.76377748585152,
+      "managed_0_whole": 44,
+      "immediate_2": 10.55312127486634,
+      "immediate_2_whole": 10,
+      "managed_2": 45.53583030206273,
+      "managed_2_whole": 45,
+      "immediate_5": 12.947841792349168,
+      "immediate_5_whole": 12,
+      "managed_5": 47.93564172528627,
+      "managed_5_whole": 47,
+      "tes_increment_to_managed": 3.171864239434747,
+      "tes_increment_percent": 7.0857832327427595
+    },
+    {
+      "network": "urban6",
+      "immediate_0": 12.021534632807375,
+      "immediate_0_whole": 12,
+      "managed_0": 59.94212813897685,
+      "managed_0_whole": 59,
+      "immediate_2": 13.736836475087856,
+      "immediate_2_whole": 13,
+      "managed_2": 60.714180956705896,
+      "managed_2_whole": 60,
+      "immediate_5": 16.126269390513443,
+      "immediate_5_whole": 16,
+      "managed_5": 63.11399237992944,
+      "managed_5_whole": 63,
+      "tes_increment_to_managed": 3.171864240952594,
+      "tes_increment_percent": 5.291544260154679
+    }
+  ],
+  "switch_intervals": [
+    {
+      "network": "rural1",
+      "synthetic_ev_first": 31,
+      "synthetic_ev_last": 33,
+      "interpretation": "Original grid can serve these integer fleets with managed EV+5 TES modules but not managed EV alone; capacity-only, not least-cost selection."
+    },
+    {
+      "network": "rural2",
+      "synthetic_ev_first": 20,
+      "synthetic_ev_last": 22,
+      "interpretation": "Original grid can serve these integer fleets with managed EV+5 TES modules but not managed EV alone; capacity-only, not least-cost selection."
+    },
+    {
+      "network": "rural3",
+      "synthetic_ev_first": 26,
+      "synthetic_ev_last": 28,
+      "interpretation": "Original grid can serve these integer fleets with managed EV+5 TES modules but not managed EV alone; capacity-only, not least-cost selection."
+    },
+    {
+      "network": "semiurb4",
+      "synthetic_ev_first": 45,
+      "synthetic_ev_last": 48,
+      "interpretation": "Original grid can serve these integer fleets with managed EV+5 TES modules but not managed EV alone; capacity-only, not least-cost selection."
+    },
+    {
+      "network": "semiurb5",
+      "synthetic_ev_first": 45,
+      "synthetic_ev_last": 47,
+      "interpretation": "Original grid can serve these integer fleets with managed EV+5 TES modules but not managed EV alone; capacity-only, not least-cost selection."
+    },
+    {
+      "network": "urban6",
+      "synthetic_ev_first": 60,
+      "synthetic_ev_last": 63,
+      "interpretation": "Original grid can serve these integer fleets with managed EV+5 TES modules but not managed EV alone; capacity-only, not least-cost selection."
+    }
+  ],
+  "asset_metadata": [
+    {
+      "network": "rural1",
+      "asset": "OU",
+      "transformer_mva": 0.16,
+      "parallel_route_km": 0.0,
+      "connection_bus": 4
+    },
+    {
+      "network": "rural1",
+      "asset": "AU",
+      "transformer_mva": 0.25,
+      "parallel_route_km": 0.0,
+      "connection_bus": 4
+    },
+    {
+      "network": "rural1",
+      "asset": "OP100",
+      "transformer_mva": 0.16,
+      "parallel_route_km": 0.24533532000000002,
+      "connection_bus": 4
+    },
+    {
+      "network": "rural1",
+      "asset": "AP100",
+      "transformer_mva": 0.25,
+      "parallel_route_km": 0.24533532000000002,
+      "connection_bus": 4
+    },
+    {
+      "network": "rural2",
+      "asset": "OU",
+      "transformer_mva": 0.25,
+      "parallel_route_km": 0.0,
+      "connection_bus": 65
+    },
+    {
+      "network": "rural2",
+      "asset": "AU",
+      "transformer_mva": 0.4,
+      "parallel_route_km": 0.0,
+      "connection_bus": 65
+    },
+    {
+      "network": "rural2",
+      "asset": "OP100",
+      "transformer_mva": 0.25,
+      "parallel_route_km": 0.5646896,
+      "connection_bus": 65
+    },
+    {
+      "network": "rural2",
+      "asset": "AP100",
+      "transformer_mva": 0.4,
+      "parallel_route_km": 0.5646896,
+      "connection_bus": 65
+    },
+    {
+      "network": "rural3",
+      "asset": "OU",
+      "transformer_mva": 0.4,
+      "parallel_route_km": 0.0,
+      "connection_bus": 82
+    },
+    {
+      "network": "rural3",
+      "asset": "AU",
+      "transformer_mva": 0.63,
+      "parallel_route_km": 0.0,
+      "connection_bus": 82
+    },
+    {
+      "network": "rural3",
+      "asset": "OP100",
+      "transformer_mva": 0.4,
+      "parallel_route_km": 0.47934292,
+      "connection_bus": 82
+    },
+    {
+      "network": "rural3",
+      "asset": "AP100",
+      "transformer_mva": 0.63,
+      "parallel_route_km": 0.47934292,
+      "connection_bus": 82
+    },
+    {
+      "network": "semiurb4",
+      "asset": "OU",
+      "transformer_mva": 0.4,
+      "parallel_route_km": 0.0,
+      "connection_bus": 25
+    },
+    {
+      "network": "semiurb4",
+      "asset": "AU",
+      "transformer_mva": 0.63,
+      "parallel_route_km": 0.0,
+      "connection_bus": 25
+    },
+    {
+      "network": "semiurb4",
+      "asset": "OP100",
+      "transformer_mva": 0.4,
+      "parallel_route_km": 0.22897663000000001,
+      "connection_bus": 25
+    },
+    {
+      "network": "semiurb4",
+      "asset": "AP100",
+      "transformer_mva": 0.63,
+      "parallel_route_km": 0.22897663000000001,
+      "connection_bus": 25
+    },
+    {
+      "network": "semiurb5",
+      "asset": "OU",
+      "transformer_mva": 0.63,
+      "parallel_route_km": 0.0,
+      "connection_bus": 51
+    },
+    {
+      "network": "semiurb5",
+      "asset": "AU",
+      "transformer_mva": 0.8,
+      "parallel_route_km": 0.0,
+      "connection_bus": 51
+    },
+    {
+      "network": "semiurb5",
+      "asset": "OP100",
+      "transformer_mva": 0.63,
+      "parallel_route_km": 0.38889914000000003,
+      "connection_bus": 51
+    },
+    {
+      "network": "semiurb5",
+      "asset": "AP100",
+      "transformer_mva": 0.8,
+      "parallel_route_km": 0.38889914000000003,
+      "connection_bus": 51
+    },
+    {
+      "network": "urban6",
+      "asset": "OU",
+      "transformer_mva": 0.63,
+      "parallel_route_km": 0.0,
+      "connection_bus": 17
+    },
+    {
+      "network": "urban6",
+      "asset": "AU",
+      "transformer_mva": 0.8,
+      "parallel_route_km": 0.0,
+      "connection_bus": 17
+    },
+    {
+      "network": "urban6",
+      "asset": "OP100",
+      "transformer_mva": 0.63,
+      "parallel_route_km": 0.25885517,
+      "connection_bus": 17
+    },
+    {
+      "network": "urban6",
+      "asset": "AP100",
+      "transformer_mva": 0.8,
+      "parallel_route_km": 0.25885517,
+      "connection_bus": 17
+    }
+  ],
+  "sensitivity_cases": 192,
+  "sensitivity_statuses": {
+    "optimal": 192
+  },
+  "sensitivity_summary": [
+    {
+      "energy_kwh": 8.0,
+      "arrival": 18,
+      "departure": 7,
+      "managed_only_min": 29.74084817753733,
+      "managed_only_max": 89.91319220846526,
+      "joint_min": 34.498644532948944,
+      "joint_max": 94.67098856989416,
+      "tes_increment_min": 4.757796355411614,
+      "tes_increment_max": 4.757796361428902,
+      "tes_increment_percent_min": 5.291544260154695,
+      "tes_increment_percent_max": 15.997514015101569
+    },
+    {
+      "energy_kwh": 12.0,
+      "arrival": 16,
+      "departure": 8,
+      "managed_only_min": 23.913899521358232,
+      "managed_only_max": 74.12494068929027,
+      "joint_min": 27.06694358675261,
+      "joint_max": 77.27798475970575,
+      "tes_increment_min": 3.153044065394379,
+      "tes_increment_max": 3.1530440704154756,
+      "tes_increment_percent_min": 4.253688490129253,
+      "tes_increment_percent_max": 13.18498500245976
+    },
+    {
+      "energy_kwh": 12.0,
+      "arrival": 20,
+      "departure": 6,
+      "managed_only_min": 16.072103057682774,
+      "managed_only_max": 47.46557871279044,
+      "joint_min": 19.263033525217992,
+      "joint_max": 50.656509183465005,
+      "tes_increment_min": 3.1909304675352175,
+      "tes_increment_max": 3.190930470674566,
+      "tes_increment_percent_min": 6.722619964211483,
+      "tes_increment_percent_max": 19.853845237819648
+    },
+    {
+      "energy_kwh": 20.0,
+      "arrival": 18,
+      "departure": 7,
+      "managed_only_min": 11.896339271014934,
+      "managed_only_max": 35.96527688338611,
+      "joint_min": 13.799457813179576,
+      "joint_max": 37.86839542795766,
+      "tes_increment_min": 1.9031185421646413,
+      "tes_increment_max": 1.903118544571548,
+      "tes_increment_percent_min": 5.291544260154659,
+      "tes_increment_percent_max": 15.99751401510153
+    }
+  ],
+  "maximum_residuals": {
+    "heat_balance_kw": 5.684341886080803e-14,
+    "inventory_balance_kwh": 2.131628207280301e-14,
+    "departure_energy_kwh": 1.3642420526593924e-12,
+    "network_excess_kw": 5.684341886080803e-14,
+    "ev_rate_excess_kw": 0.0,
+    "hp_rate_excess_kw": 0.0,
+    "soc_excess_kwh": 0.0,
+    "transfer_excess_kw": 0.0,
+    "simultaneous_cycling_kw": 0.0,
+    "ev_outside_window_kw": 0.0
+  },
+  "total_case_seconds": 170.95418149675243,
+  "binding_sessions": [
+    {
+      "network": "rural1",
+      "limiting_year": 2025,
+      "base_managed_count": 30.796766743080425,
+      "critical_session_days_zero_based": [
+        9
+      ],
+      "minimum_slack_kwh": 3.695612349474686e-08,
+      "joint_inventory_at_baseline_critical_sessions": [
+        {
+          "session_day_zero_based": 9,
+          "arrival_model_time": "2025-01-10T18:00:00",
+          "soc_before_kwh": 93.0399970613712,
+          "soc_at_departure_kwh": 0.0,
+          "heat_during_window_kwh": 3072.8413164615135,
+          "net_discharge_in_window_kwh": 86.30246978105149,
+          "thermal_electricity_freed_kwh": 38.062369619500075
+        }
+      ]
+    },
+    {
+      "network": "rural2",
+      "limiting_year": 2025,
+      "base_managed_count": 19.82723211835822,
+      "critical_session_days_zero_based": [
+        9
+      ],
+      "minimum_slack_kwh": 2.3792722458892968e-08,
+      "joint_inventory_at_baseline_critical_sessions": [
+        {
+          "session_day_zero_based": 9,
+          "arrival_model_time": "2025-01-10T18:00:00",
+          "soc_before_kwh": 93.0399970613715,
+          "soc_at_departure_kwh": 0.0,
+          "heat_during_window_kwh": 1577.599030199079,
+          "net_discharge_in_window_kwh": 86.30246978105173,
+          "thermal_electricity_freed_kwh": 38.062369619500146
+        }
+      ]
+    },
+    {
+      "network": "rural3",
+      "limiting_year": 2025,
+      "base_managed_count": 25.31705348492138,
+      "critical_session_days_zero_based": [
+        9
+      ],
+      "minimum_slack_kwh": 3.038053364434745e-08,
+      "joint_inventory_at_baseline_critical_sessions": [
+        {
+          "session_day_zero_based": 9,
+          "arrival_model_time": "2025-01-10T18:00:00",
+          "soc_before_kwh": 93.03999706137164,
+          "soc_at_departure_kwh": 0.0,
+          "heat_during_window_kwh": 1905.2366351455785,
+          "net_discharge_in_window_kwh": 86.30246978105185,
+          "thermal_electricity_freed_kwh": 38.06236961950023
+        }
+      ]
+    },
+    {
+      "network": "semiurb4",
+      "limiting_year": 2025,
+      "base_managed_count": 44.86591526738215,
+      "critical_session_days_zero_based": [
+        9
+      ],
+      "minimum_slack_kwh": 5.383924417401431e-08,
+      "joint_inventory_at_baseline_critical_sessions": [
+        {
+          "session_day_zero_based": 9,
+          "arrival_model_time": "2025-01-10T18:00:00",
+          "soc_before_kwh": 93.03999706137081,
+          "soc_at_departure_kwh": 0.0,
+          "heat_during_window_kwh": 3615.578262098837,
+          "net_discharge_in_window_kwh": 86.30246978105112,
+          "thermal_electricity_freed_kwh": 38.062369619499904
+        }
+      ]
+    },
+    {
+      "network": "semiurb5",
+      "limiting_year": 2025,
+      "base_managed_count": 44.76377748585152,
+      "critical_session_days_zero_based": [
+        9
+      ],
+      "minimum_slack_kwh": 5.371657607611269e-08,
+      "joint_inventory_at_baseline_critical_sessions": [
+        {
+          "session_day_zero_based": 9,
+          "arrival_model_time": "2025-01-10T18:00:00",
+          "soc_before_kwh": 93.03999706137164,
+          "soc_at_departure_kwh": 0.0,
+          "heat_during_window_kwh": 3711.7135379957235,
+          "net_discharge_in_window_kwh": 86.30246978105185,
+          "thermal_electricity_freed_kwh": 38.062369619500224
+        }
+      ]
+    },
+    {
+      "network": "urban6",
+      "limiting_year": 2025,
+      "base_managed_count": 59.94212813897685,
+      "critical_session_days_zero_based": [
+        9
+      ],
+      "minimum_slack_kwh": 7.193057172116823e-08,
+      "joint_inventory_at_baseline_critical_sessions": [
+        {
+          "session_day_zero_based": 9,
+          "arrival_model_time": "2025-01-10T18:00:00",
+          "soc_before_kwh": 93.03999706137188,
+          "soc_at_departure_kwh": 0.0,
+          "heat_during_window_kwh": 4922.694618320503,
+          "net_discharge_in_window_kwh": 86.30246978105208,
+          "thermal_electricity_freed_kwh": 38.06236961950033
+        }
+      ]
+    }
+  ],
+  "ac_validation": {
+    "records": 6,
+    "intervals": 210240,
+    "violations": 0,
+    "minimum_voltage_pu": 0.950005304008514,
+    "maximum_voltage_pu": 1.0344209888029212,
+    "maximum_line_percent": 99.9910654315422,
+    "maximum_transformer_percent": 99.99306436208948,
+    "newton_voltage_error": 1.898570189950988e-11,
+    "newton_line_percentage_point_error": 2.3467251253350696e-08,
+    "newton_transformer_percentage_point_error": 1.0290207796970208e-08
+  }
+}

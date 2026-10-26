@@ -1,0 +1,122 @@
+[
+  {
+    "network": "rural1",
+    "limiting_year": 2025,
+    "base_managed_count": 30.796766743080425,
+    "critical_session_days_zero_based": [
+      9
+    ],
+    "minimum_slack_kwh": 3.695612349474686e-08,
+    "joint_inventory_at_baseline_critical_sessions": [
+      {
+        "session_day_zero_based": 9,
+        "arrival_model_time": "2025-01-10T18:00:00",
+        "soc_before_kwh": 93.0399970613712,
+        "soc_at_departure_kwh": 0.0,
+        "heat_during_window_kwh": 3072.8413164615135,
+        "net_discharge_in_window_kwh": 86.30246978105149,
+        "thermal_electricity_freed_kwh": 38.062369619500075
+      }
+    ]
+  },
+  {
+    "network": "rural2",
+    "limiting_year": 2025,
+    "base_managed_count": 19.82723211835822,
+    "critical_session_days_zero_based": [
+      9
+    ],
+    "minimum_slack_kwh": 2.3792722458892968e-08,
+    "joint_inventory_at_baseline_critical_sessions": [
+      {
+        "session_day_zero_based": 9,
+        "arrival_model_time": "2025-01-10T18:00:00",
+        "soc_before_kwh": 93.0399970613715,
+        "soc_at_departure_kwh": 0.0,
+        "heat_during_window_kwh": 1577.599030199079,
+        "net_discharge_in_window_kwh": 86.30246978105173,
+        "thermal_electricity_freed_kwh": 38.062369619500146
+      }
+    ]
+  },
+  {
+    "network": "rural3",
+    "limiting_year": 2025,
+    "base_managed_count": 25.31705348492138,
+    "critical_session_days_zero_based": [
+      9
+    ],
+    "minimum_slack_kwh": 3.038053364434745e-08,
+    "joint_inventory_at_baseline_critical_sessions": [
+      {
+        "session_day_zero_based": 9,
+        "arrival_model_time": "2025-01-10T18:00:00",
+        "soc_before_kwh": 93.03999706137164,
+        "soc_at_departure_kwh": 0.0,
+        "heat_during_window_kwh": 1905.2366351455785,
+        "net_discharge_in_window_kwh": 86.30246978105185,
+        "thermal_electricity_freed_kwh": 38.06236961950023
+      }
+    ]
+  },
+  {
+    "network": "semiurb4",
+    "limiting_year": 2025,
+    "base_managed_count": 44.86591526738215,
+    "critical_session_days_zero_based": [
+      9
+    ],
+    "minimum_slack_kwh": 5.383924417401431e-08,
+    "joint_inventory_at_baseline_critical_sessions": [
+      {
+        "session_day_zero_based": 9,
+        "arrival_model_time": "2025-01-10T18:00:00",
+        "soc_before_kwh": 93.03999706137081,
+        "soc_at_departure_kwh": 0.0,
+        "heat_during_window_kwh": 3615.578262098837,
+        "net_discharge_in_window_kwh": 86.30246978105112,
+        "thermal_electricity_freed_kwh": 38.062369619499904
+      }
+    ]
+  },
+  {
+    "network": "semiurb5",
+    "limiting_year": 2025,
+    "base_managed_count": 44.76377748585152,
+    "critical_session_days_zero_based": [
+      9
+    ],
+    "minimum_slack_kwh": 5.371657607611269e-08,
+    "joint_inventory_at_baseline_critical_sessions": [
+      {
+        "session_day_zero_based": 9,
+        "arrival_model_time": "2025-01-10T18:00:00",
+        "soc_before_kwh": 93.03999706137164,
+        "soc_at_departure_kwh": 0.0,
+        "heat_during_window_kwh": 3711.7135379957235,
+        "net_discharge_in_window_kwh": 86.30246978105185,
+        "thermal_electricity_freed_kwh": 38.062369619500224
+      }
+    ]
+  },
+  {
+    "network": "urban6",
+    "limiting_year": 2025,
+    "base_managed_count": 59.94212813897685,
+    "critical_session_days_zero_based": [
+      9
+    ],
+    "minimum_slack_kwh": 7.193057172116823e-08,
+    "joint_inventory_at_baseline_critical_sessions": [
+      {
+        "session_day_zero_based": 9,
+        "arrival_model_time": "2025-01-10T18:00:00",
+        "soc_before_kwh": 93.03999706137188,
+        "soc_at_departure_kwh": 0.0,
+        "heat_during_window_kwh": 4922.694618320503,
+        "net_discharge_in_window_kwh": 86.30246978105208,
+        "thermal_electricity_freed_kwh": 38.06236961950033
+      }
+    ]
+  }
+]

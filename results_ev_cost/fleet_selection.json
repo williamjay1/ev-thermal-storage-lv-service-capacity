@@ -1,0 +1,44 @@
+[
+  {
+    "network": "rural1",
+    "reference_equivalent_evs": 30.796766743080425,
+    "reference_feasible_equivalent_evs": 30.796766743080425,
+    "fixed_evs": 31,
+    "selection": "Exploratory: first integer above the observed OU/no-TES managed-EV two-year bound"
+  },
+  {
+    "network": "rural2",
+    "reference_equivalent_evs": 19.82723211835822,
+    "reference_feasible_equivalent_evs": 19.82723211835822,
+    "fixed_evs": 20,
+    "selection": "Exploratory: first integer above the observed OU/no-TES managed-EV two-year bound"
+  },
+  {
+    "network": "rural3",
+    "reference_equivalent_evs": 25.31705348492138,
+    "reference_feasible_equivalent_evs": 25.31705348492138,
+    "fixed_evs": 26,
+    "selection": "Exploratory: first integer above the observed OU/no-TES managed-EV two-year bound"
+  },
+  {
+    "network": "semiurb4",
+    "reference_equivalent_evs": 44.86591526738215,
+    "reference_feasible_equivalent_evs": 44.86591526738215,
+    "fixed_evs": 45,
+    "selection": "Exploratory: first integer above the observed OU/no-TES managed-EV two-year bound"
+  },
+  {
+    "network": "semiurb5",
+    "reference_equivalent_evs": 44.76377748585152,
+    "reference_feasible_equivalent_evs": 44.76377748585152,
+    "fixed_evs": 45,
+    "selection": "Exploratory: first integer above the observed OU/no-TES managed-EV two-year bound"
+  },
+  {
+    "network": "urban6",
+    "reference_equivalent_evs": 59.94212813897685,
+    "reference_feasible_equivalent_evs": 59.94212813897685,
+    "fixed_evs": 60,
+    "selection": "Exploratory: first integer above the observed OU/no-TES managed-EV two-year bound"
+  }
+]
